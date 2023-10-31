@@ -2,8 +2,6 @@
 
 This is a simple to-do list application built using the MERN (MongoDB, Express, React, Node.js) stack. It allows you to create, update, and delete tasks, helping you stay organized and manage your daily tasks efficiently.
 
-![App Screenshot](screenshot.png)
-
 ## Features
 
 - Create new tasks with titles and descriptions.
@@ -32,11 +30,8 @@ These instructions will help you set up and run the project on your local machin
 
 2. **Install dependencies**
 
-    # Install server dependencies
-cd server
-npm install
+    ```cd frontend
+    npm install```
 
-# Install client dependencies
-cd ../client
-npm install
-
+    ```cd backend
+    npm install```
