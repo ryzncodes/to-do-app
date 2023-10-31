@@ -30,8 +30,10 @@ These instructions will help you set up and run the project on your local machin
 
 2. **Install dependencies**
 
-    ```cd frontend
-    npm install```
+    ```bash
+    cd frontend
+    npm install
 
-    ```cd backend
-    npm install```
+    ```bash
+    cd backend
+    npm install
