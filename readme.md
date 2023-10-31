@@ -34,6 +34,32 @@ These instructions will help you set up and run the project on your local machin
     cd frontend
     npm install
 
-    ```bash
     cd backend
     npm install
+
+3. **Configure environment variables**
+
+    Create an .env file inside the frontend directory and add your MONGODB_URI
+
+    MONGO_URI=your_mongodb_uri
+
+4. **Start your server**
+
+    In your backend directory, start the server by:
+
+    ```bash
+    npm start
+    ```
+
+    While in your frontend directory, start it by:
+
+    ```bash
+    npm start
+    ```
+
+## API Endpoints
+
+- GET /: Get all tasks.
+- POST /save: Save a new task.
+- POST /update: Update a new task.
+- POST /delete: Delete a task.
