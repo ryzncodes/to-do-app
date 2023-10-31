@@ -41,6 +41,7 @@ These instructions will help you set up and run the project on your local machin
 
     Create an .env file inside the frontend directory and add your MONGODB_URI
 
+    ```bash
     MONGO_URI=your_mongodb_uri
 
 4. **Start your server**
